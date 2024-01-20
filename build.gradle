@@ -1,5 +1,5 @@
 plugins {
-    id 'org.spongepowered.plugin' version '0.8.1'
+    id 'org.spongepowered.plugin' version '0.9.0'
 }
 
 group = 'me.rojo8399.placeholderapi'
@@ -12,5 +12,6 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.21'
     compile 'org.reflections:reflections:0.9.10'
     compile 'ninja.leaping.configurate:configurate-hocon:3.2'
-    compile 'org.spongepowered:spongeapi:7.1.0-SNAPSHOT'
+    compileOnly 'org.spongepowered:spongeapi:7.4.0'
+    annotationProcessor 'org.spongepowered:spongeapi:7.4.0'
 }
