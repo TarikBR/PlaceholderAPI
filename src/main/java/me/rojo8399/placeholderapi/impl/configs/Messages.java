@@ -201,6 +201,8 @@ public class Messages {
                 .deserialize((args == null || args.length == 0 ? m : String.format(m, args)));
     }
 
+    public Messages(){}
+
     @Setting
     public Misc misc = new Misc();
 
